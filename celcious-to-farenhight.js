@@ -3,3 +3,5 @@ function celsiusToFahrenheit(celsius) {
     return fahrenheit;
   }
   
+const sum = celsiusToFahrenheit (100)
+console.log(sum);
