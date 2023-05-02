@@ -11,7 +11,7 @@ function getOddNumbersAndSum(arr) {
   
     return { oddNumbers, oddSum };
   }
-  const myArray = [1, 2, 3, 4, 5];
+const myArray = [1, 2, 3, 4, 5];
 const result = getOddNumbersAndSum(myArray);
 console.log(result.oddNumbers); // Output: [1, 3, 5]
 console.log(result.oddSum); // Output: 9
